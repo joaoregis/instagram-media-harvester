@@ -1,0 +1,4 @@
+.repowise/
+web-ext-artifacts/
+*.zip
+*.xpi

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Media Harvester",
+  "version": "0.1.0",
+  "description": "Baixa vídeos e reels do Instagram com um clique.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "background": { "scripts": ["background.js"] },
+  "action": { "default_title": "Baixar vídeo do Instagram" },
+  "browser_specific_settings": {
+    "gecko": { "id": "instagram-media-harvester@local", "strict_min_version": "115.0" }
+  }
+}
